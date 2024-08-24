@@ -1,0 +1,120 @@
+ .OurPartners {
+  width: 100%;
+  height: auto !important;
+  overflow: hidden;
+  background-image: url("/public/uploads/img/iconbackpattern.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+}
+
+.one .OurPartners .title-dis4 {
+  font-weight: 700;
+  color: white;
+  margin-left: 10px;
+  display: flex;
+  width: 300px !important;
+  flex-wrap: wrap;
+}
+.one .title-dis4 h2 {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.801);
+}
+.one .title-dis4 div {
+  font-size: 40px;
+  color: white;
+}
+.one .title-dis4 h3 {
+  font-size: 50px;
+}
+.one .display12 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap !important;
+}
+.one .imgSmallOurPartners:hover {
+  transform: scale(1.1);
+}
+.imgBigOurPartners:hover {
+  transform: scale(1.1);
+}
+.one .imgBigOurPartners {
+  width: 250px !important;
+  height: 250px !important;
+  margin: 20px !important;
+  transition: 0.3s;
+}
+.one .imgSmallOurPartners {
+  width: 200px !important;
+  height: 200px !important;
+  transition: 0.3s;
+}
+@media screen and (max-width:1400px) {
+
+    .one .imgBigOurPartners {
+        width: 200px !important;
+        height: 200px !important;
+        margin: 20px !important;
+        transition: 0.3s;
+      }
+      .one .imgSmallOurPartners {
+        width: 180px !important;
+        height: 180px !important;
+        transition: 0.3s;
+      }
+
+
+
+}
+@media screen and (max-width:770px) {
+
+    .one .imgBigOurPartners {
+        width: 150px !important;
+        height: 150px !important;
+        margin: 20px !important;
+        transition: 0.3s;
+      }
+      .one .imgSmallOurPartners {
+        width: 120px !important;
+        height: 120px !important;
+        transition: 0.3s;
+      }
+
+
+
+}
+@media screen and (max-width:430px) {
+
+    .one .imgBigOurPartners {
+        width: 110px !important;
+        height: 110px !important;
+        margin: 20px !important;
+        transition: 0.3s;
+      }
+      .one .imgSmallOurPartners {
+        width: 100px !important;
+        height: 100px !important;
+        transition: 0.3s;
+      }
+
+
+
+}
+@media screen and (max-width:330px) {
+
+    .one .imgBigOurPartners {
+        width: 140px !important;
+        height: 140px !important;
+        margin: 20px !important;
+        transition: 0.3s;
+      }
+      .one .imgSmallOurPartners {
+        width: 110px !important;
+        height: 110px !important;
+        transition: 0.3s;
+      }
+
+
+
+}

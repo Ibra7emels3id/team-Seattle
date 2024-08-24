@@ -1,0 +1,124 @@
+.navbar-collapse {
+  margin-left: 10px;
+
+}
+
+.navbar-collapse ul li {
+  /* padding-left :8px; */
+}
+.color-g1{
+  color: #e2a712;
+}
+.navbar {
+  width: 102%;
+  top: 0;
+}
+li .dropdown-item:hover{
+  color: #ffffff !important;
+background-color: #6864643a !important;
+
+}
+.nav-link {
+  color: white !important;
+} 
+a li {
+  height: 10vh;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+
+
+.dropdown-menu {
+  background-color: #bfb78f  !important;
+  text-align: center !important;
+  position: absolute !important;
+}
+
+.dropdown-menu:hover {
+  text-align: center !important;
+  color: black !important;
+}
+
+.click-button {
+  cursor: pointer !important;
+  transition: 0.2s;
+}
+
+.click-button:hover {
+  transform: scale(1.1);
+}
+
+.en-ar {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  width: 90px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #bfb78f ;
+  background-image: url("./../../../public/uploads/img/em.png");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: 50% 100%;
+  cursor: pointer;
+  margin: 2px;
+}
+/* CSS للزر والإضاءة */
+.navbar-toggler ,.navbar-toggler-icon::after {
+  position: relative;
+  animation: lightUp 1s ease-out infinite;
+}
+
+@keyframes lightUp {
+  0% {
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  }
+  50% {
+    box-shadow: 0 0 20px #ffd501;
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .navbar {
+  text-align: center;
+  margin: auto !important;
+    width: 100%;
+  }
+  .navbar-collapse {
+    flex-wrap: wrap;
+  }}
+@media screen and (max-width: 1450px) {
+
+  .navbar-collapse {
+
+font-size: 15px;  }}
+@media screen and (max-width: 950px) {
+  .nav-item a {
+    color: rgb(255, 255, 255) !important;
+    background-color:#806d3b  !important;
+    text-align: center;
+  }
+  .dropdown-menu  {
+    margin: 0 !important;  
+      width: 100%;
+      flex-wrap: wrap;
+  }
+  .navbar {
+margin: 0 !important;  
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .navbar>.container-md, .navbar>.container-sm{
+      margin: 0 !important;
+    }
+    .css-9801gy {
+flex-wrap: wrap !important;
+    }
+}
+/* CSS للزر والإضاءة على الأيقونة الداخلية */
