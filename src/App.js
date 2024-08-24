@@ -33,7 +33,7 @@ import LastNews from './Components/blog/LastNews';
 export default function App() {
     return (
         <div>
-            <HashRouter>
+            <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="Ourpartners" element={<Ourpartners />} />
@@ -64,7 +64,7 @@ export default function App() {
                         <Route path="update-blog/:id" element={<UpdateBlog />} />
                     </Route>
                 </Routes>
-            </HashRouter>
+            </BrowserRouter>
             <ToastContainer />
         </div>
     );
